@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Known issues">
+    <test name="Open defects">
+        <groups>
+            <run>
+                <include name="known-issue"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="io.github.qa.api.tests"/>
+        </packages>
+    </test>
+</suite>
