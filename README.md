@@ -1,5 +1,11 @@
 # API autotests: Playwright + TestNG
 
+[![API tests](https://github.com/eageordie/api-autotests/actions/workflows/api-tests.yml/badge.svg)](https://github.com/eageordie/api-autotests/actions/workflows/api-tests.yml)
+![Java 21](https://img.shields.io/badge/Java-21-orange)
+![Playwright](https://img.shields.io/badge/Playwright-1.49-2EAD33)
+![TestNG](https://img.shields.io/badge/TestNG-7.10-blue)
+![Allure](https://img.shields.io/badge/report-Allure-yellow)
+
 Automated API tests for [Restful Booker](https://restful-booker.herokuapp.com/apidoc/index.html), a public practice API for bookings with token auth.
 
 **Stack:** Java 21 · Playwright (`APIRequestContext`) · TestNG · AssertJ · Jackson · Datafaker · Allure · Maven · GitHub Actions
